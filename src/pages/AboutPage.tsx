@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 const AboutPage = () => {
   return (
-    <main id="about" className='relative mx-auto flex min-h-[80vh] max-w-5xl flex-row items-end scroll-mt-20 bg-trasnparent px-6 pb-24 pt-16'
+    <main id="about" className='relative mx-auto flex min-h-[80vh] w-full max-w-5xl flex-col md:flex-row items-end scroll-mt-20 bg-trasnparent px-4 md:px-6 pb-16 md:pb-24 pt-12 md:pt-16 gap-8 md:gap-0'
     >
 
         {/* Right: Text */}
@@ -58,7 +58,7 @@ const AboutPage = () => {
         </div>
 
         {/* Left: Profile Card */}
-        <div className="flex justify-center px-15 self-end">
+        <div className="flex w-full md:w-auto justify-center px-15 self-end">
           <ProfileCard
             handle="Xavier Gelligan"
             status="Online"

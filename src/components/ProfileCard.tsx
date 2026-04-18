@@ -79,7 +79,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
         className="relative overflow-hidden rounded-[30px] transition-transform duration-200 ease-out"
         style={{
           height: '500px',
-          width: '320px',
+          width: 'min(320px, calc(100vw - 2rem))',
           transformStyle: 'preserve-3d',
           background: '#000'
         }}
